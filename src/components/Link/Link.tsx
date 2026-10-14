@@ -5,12 +5,14 @@ type LinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
     children: ReactNode;
     variant?: "primary" | "secondary" | "muted";
     underline?: boolean;
+    weight?: 400 | 500 | 600 | 700;
 };
 
 export const Link = ({
     children,
     variant = "primary",
     underline = false,
+    weight = 500,
     style,
     ...props
 }: LinkProps) => {
@@ -25,7 +27,7 @@ export const Link = ({
             style={{
                 fontFamily: "'Inter', sans-serif",
                 fontSize: "1rem",
-                fontWeight: 500,
+                fontWeight: weight,
                 lineHeight: 1.5,
                 color: colors[variant],
                 textDecoration: underline ? "underline" : "none",
