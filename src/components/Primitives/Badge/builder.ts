@@ -1,6 +1,6 @@
 
 import { Color } from "../../../utils/colors/colors";
-import type { IBadgeProps } from "../../../types/badge/badge-type";
+import type { IBadgeProps } from "../../../types/primitives/badge/badge-type";
 
 export const useBadgeBuilder = ({
     variant = "secondary",

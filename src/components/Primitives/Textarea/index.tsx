@@ -1,5 +1,5 @@
 import styles from "./style.module.css";
-import type { ITextAreaProps } from "../../../types/textarea/textarea-type";
+import type { ITextAreaProps } from "../../../types/primitives/textarea/textarea-type";
 import { useTextAreaBuilder } from "./builder";
 
 export const TextArea = ({

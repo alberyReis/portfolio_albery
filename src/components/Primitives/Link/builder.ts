@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
 import { Color } from "../../../utils/colors/colors";
-import type { ILinkProps } from "../../../types/link/link-type";
+import type { ILinkProps } from "../../../types/primitives/link/link-type";
 
 export const useLinkBuilder = (
     variant: NonNullable<ILinkProps["variant"]>,

@@ -1,5 +1,5 @@
 import { Color } from "../../../utils/colors/colors";
-import type { IButtonProps } from "../../../types/button/button-type";
+import type { IButtonProps } from "../../../types/primitives/button/button-type";
 
 export const useButtonBuilder = ({
     variant = "primary",

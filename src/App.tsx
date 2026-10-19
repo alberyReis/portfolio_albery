@@ -1,4 +1,5 @@
 import { Header } from "./components/Header"
+import { Divider } from "./components/Primitives/Divider"
 import { About } from "./components/Sections/About"
 import { Home } from "./components/Sections/Home"
 
@@ -8,7 +9,9 @@ export const App = () => {
       <Header />
       <main>
         <Home />
+        <Divider />
         <About />
+        <Divider />
       </main>
     </div>
   )

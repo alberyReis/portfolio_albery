@@ -1,4 +1,4 @@
-import type { IContainerProps } from "../../../types/container/container-type";
+import type { IContainerProps } from "../../../types/primitives/container/container-type";
 import styles from "./style.module.css";
 
 export const Container = ({

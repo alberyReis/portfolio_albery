@@ -1,5 +1,5 @@
 import styles from "./style.module.css";
-import type { IInputProps } from "../../../types/input/input-type";
+import type { IInputProps } from "../../../types/primitives/input/input-type";
 import { useInputBuilder } from "./builder";
 
 export const Input = ({

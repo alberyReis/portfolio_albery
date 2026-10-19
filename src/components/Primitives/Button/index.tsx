@@ -1,5 +1,5 @@
 import type { CSSProperties } from "react";
-import type { IButtonProps } from "../../../types/button/button-type";
+import type { IButtonProps } from "../../../types/primitives/button/button-type";
 import { useButtonBuilder } from "./builder";
 import styles from "./style.module.css";
 

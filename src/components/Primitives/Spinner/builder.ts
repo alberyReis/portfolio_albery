@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
 import { Color } from "../../../utils/colors/colors";
-import type { ISpinnerProps } from "../../../types/spinner/spinner-type";
+import type { ISpinnerProps } from "../../../types/primitives/spinner/spinner-type";
 
 export const useSpinnerBuilder = (
     size: NonNullable<ISpinnerProps["size"]>,

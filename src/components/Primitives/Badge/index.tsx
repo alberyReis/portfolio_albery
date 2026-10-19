@@ -1,5 +1,5 @@
 import type { CSSProperties } from "react";
-import type { IBadgeProps } from "../../../types/badge/badge-type";
+import type { IBadgeProps } from "../../../types/primitives/badge/badge-type";
 import { useBadgeBuilder } from "./builder";
 import styles from "./style.module.css";
 

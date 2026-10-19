@@ -1,4 +1,4 @@
-import type { IDividerProps } from "../../../types/divider/divider-type";
+import type { IDividerProps } from "../../../types/primitives/divider/divider-type";
 import { useDividerBuilder } from "./builder";
 
 import styles from "./style.module.css";

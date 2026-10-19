@@ -19,13 +19,18 @@
     transform: translateY(-100%);
 }
 
+
 .nav {
+    width: 100%;
     min-height: 80px;
+    box-sizing: border-box;
+    padding-inline: 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
 }
+
 
 .logoLink {
     display: flex;

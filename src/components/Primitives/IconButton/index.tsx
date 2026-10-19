@@ -1,5 +1,5 @@
 import styles from "./style.module.css";
-import type { IIconButtonProps } from "../../../types/icon-button/icon-button-type";
+import type { IIconButtonProps } from "../../../types/primitives/icon-button/icon-button-type";
 import { useIconButtonBuilder } from "./builder";
 
 export const IconButton = ({

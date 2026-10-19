@@ -1,5 +1,5 @@
 import styles from "./style.module.css";
-import type { ISpinnerProps } from "../../../types/spinner/spinner-type";
+import type { ISpinnerProps } from "../../../types/primitives/spinner/spinner-type";
 import { useSpinnerBuilder } from "./builder";
 
 export const Spinner = ({

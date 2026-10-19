@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
 import { Color } from "../../../utils/colors/colors";
-import type { ITagProps } from "../../../types/tag/tag-type";
+import type { ITagProps } from "../../../types/primitives/tag/tag-type";
 
 export const useTagBuilder = (
     variant: NonNullable<ITagProps["variant"]>,

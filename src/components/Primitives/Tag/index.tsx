@@ -1,5 +1,5 @@
 import styles from "./style.module.css";
-import type { ITagProps } from "../../../types/tag/tag-type";
+import type { ITagProps } from "../../../types/primitives/tag/tag-type";
 import { useTagBuilder } from "./builder";
 
 export const Tag = ({

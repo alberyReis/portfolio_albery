@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
 import { Color } from "../../../utils/colors/colors";
-import type { IDividerProps } from "../../../types/divider/divider-type";
+import type { IDividerProps } from "../../../types/primitives/divider/divider-type";
 
 export const useDividerBuilder = ({
     orientation = "horizontal",

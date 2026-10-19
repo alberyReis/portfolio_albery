@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
 import { Color } from "../../../utils/colors/colors";
-import type { IIconButtonProps } from "../../../types/icon-button/icon-button-type";
+import type { IIconButtonProps } from "../../../types/primitives/icon-button/icon-button-type";
 
 export const useIconButtonBuilder = (
     variant: NonNullable<IIconButtonProps["variant"]>,

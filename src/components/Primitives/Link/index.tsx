@@ -1,5 +1,5 @@
 import styles from "./style.module.css";
-import type { ILinkProps } from "../../../types/link/link-type";
+import type { ILinkProps } from "../../../types/primitives/link/link-type";
 import { useLinkBuilder } from "./builder";
 
 export const Link = ({
