@@ -1,15 +1,20 @@
-
 import type { CSSProperties } from "react";
 import {
     SiHtml5,
     SiCss,
     SiJavascript,
     SiTypescript,
+    SiGit,
+    SiGithub,
     SiReact,
     SiNextdotjs,
     SiAngular,
 } from "react-icons/si";
-import { BrainCircuit, Database } from "lucide-react";
+import {
+    BrainCircuit,
+    Database,
+    Network,
+} from "lucide-react";
 
 import type { ISkillCardProps } from "../../../types/skill-card/skill-card-type";
 import { Color } from "../../../utils/colors/colors";
@@ -19,60 +24,79 @@ export const useSkillsBuilder = () => {
         {
             title: "HTML",
             description:
-                "Estruturação de páginas web com marcação semântica e acessível.",
+                "Estruturação de páginas web com HTML semântico, priorizando acessibilidade e organização do conteúdo.",
             icon: SiHtml5,
         },
         {
             title: "CSS",
             description:
-                "Estilização de interfaces responsivas e criação de layouts.",
+                "Estilização de interfaces, criação de layouts e desenvolvimento de experiências responsivas.",
             icon: SiCss,
         },
         {
             title: "JavaScript",
             description:
-                "Implementação de funcionalidades e comportamentos dinâmicos.",
+                "Desenvolvimento de funcionalidades interativas e implementação de lógica para aplicações web.",
             icon: SiJavascript,
         },
         {
             title: "TypeScript",
             description:
-                "Tipagem estática para desenvolver aplicações mais previsíveis.",
+                "Aplicação de tipagem estática para aumentar a previsibilidade, a legibilidade e a confiabilidade do código.",
             icon: SiTypescript,
+        },
+        {
+            title: "Git",
+            description:
+                "Controle de versão para registrar alterações, gerenciar branches e acompanhar a evolução do código.",
+            icon: SiGit,
+        },
+        {
+            title: "GitHub",
+            description:
+                "Gerenciamento de repositórios, colaboração no desenvolvimento e compartilhamento de projetos de software.",
+            icon: SiGithub,
+        },
+        {
+            title: "APIs REST",
+            description:
+                "Integração entre aplicações e serviços por meio de requisições HTTP e troca de dados em JSON.",
+            icon: Network,
         },
         {
             title: "Banco de Dados",
             description:
-                "Armazenamento, organização e consulta de dados em bancos de dados.",
+                "Fundamentos de armazenamento, organização e consulta de dados em sistemas de banco de dados.",
             icon: Database,
         },
         {
             title: "React",
             description:
-                "Criação de interfaces reutilizáveis baseadas em componentes.",
+                "Construção de interfaces declarativas com componentes reutilizáveis e gerenciamento de estado.",
             icon: SiReact,
         },
         {
             title: "Next.js",
-            description: "Desenvolvimento de aplicações web com React e Next.js.",
+            description:
+                "Desenvolvimento de aplicações web com React utilizando recursos e convenções do framework Next.js.",
             icon: SiNextdotjs,
         },
         {
             title: "React Native",
             description:
-                "Desenvolvimento de aplicações mobile para Android e iOS.",
+                "Desenvolvimento de aplicações móveis para Android e iOS com JavaScript, TypeScript e React.",
             icon: SiReact,
         },
         {
             title: "Angular",
             description:
-                "Desenvolvimento de aplicações web com componentes e recursos do framework.",
+                "Desenvolvimento de aplicações web com componentes, serviços, injeção de dependências e recursos do framework.",
             icon: SiAngular,
         },
         {
             title: "Inteligência Artificial",
             description:
-                "Utilização de ferramentas de IA para apoiar o desenvolvimento e a resolução de problemas de software.",
+                "Utilização de ferramentas de IA como apoio à análise de problemas, à produtividade e ao desenvolvimento de software.",
             icon: BrainCircuit,
         },
     ];
