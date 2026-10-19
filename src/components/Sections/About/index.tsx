@@ -39,21 +39,13 @@ export const About = () => {
 
                         <div className={styles.description}>
                             <Text size="large" color="secondary">
-                                Sou desenvolvedor de software com experiência
-                                prática em aplicações mobile utilizando React
-                                Native, JavaScript e TypeScript. Atuei no
-                                desenvolvimento de interfaces, integração com APIs
-                                e criação de componentes reutilizáveis para Android
-                                e iOS.
+                                Sou desenvolvedor de software com experiência prática no desenvolvimento de aplicações mobile para Android e iOS utilizando React Native, JavaScript e TypeScript. Durante minha atuação profissional, trabalhei na construção de interfaces, integração com APIs REST, desenvolvimento de componentes reutilizáveis e implementação de recursos voltados à funcionalidade e à experiência do usuário.
                             </Text>
 
                             <div className={styles.paragraphSpacing} />
 
                             <Text size="large" color="secondary">
-                                Minha trajetória na tecnologia é marcada pela
-                                curiosidade, pelo aprendizado contínuo e pela busca
-                                por soluções eficientes, com atenção à qualidade
-                                do código e à experiência do usuário.
+                                Atualmente, curso o 7º período de Engenharia de Software e continuo ampliando meus conhecimentos em arquitetura de software, boas práticas de desenvolvimento e tecnologias web e mobile. Busco desenvolver soluções bem estruturadas, com código organizado, componentes reutilizáveis e foco em manutenibilidade, desempenho e qualidade.
                             </Text>
                         </div>
 

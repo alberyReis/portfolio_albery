@@ -43,10 +43,7 @@ export const Home = () => {
 
                         <div className={styles.description}>
                             <Text size="large" color="secondary">
-                                Sou desenvolvedor de software com foco em
-                                aplicações web e mobile. Transformo ideias em
-                                interfaces funcionais, acessíveis e bem
-                                estruturadas.
+                                Desenvolvedor de software e estudante do 7º período de Engenharia de Software, com experiência prática no desenvolvimento de aplicações web e mobile. Foco em React, React Native e TypeScript, com atenção à qualidade do código, à arquitetura de componentes e à construção de interfaces funcionais, acessíveis e escaláveis.
                             </Text>
                         </div>
 
