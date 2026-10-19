@@ -1,0 +1,82 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--header-background);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--header-border);
+    transition: transform 250ms ease;
+}
+
+.visible {
+    transform: translateY(0);
+}
+
+.hidden {
+    transform: translateY(-100%);
+}
+
+.nav {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.logoLink {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.logo {
+    display: block;
+    width: 64px;
+    object-fit: contain;
+    object-position: left center;
+    border-radius: 12px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.link {
+    position: relative;
+    padding: 0.65rem 0;
+    color: var(--header-text-muted);
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color 180ms ease;
+}
+
+.link:hover,
+.activeLink {
+    color: var(--header-text-primary);
+}
+
+.activeLink {
+    font-weight: 600;
+}
+
+.underline {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--header-primary);
+    border-radius: 2px;
+    transition: width 180ms ease;
+}
+
+.activeLink .underline {
+    width: 100%;
+}

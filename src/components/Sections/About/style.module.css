@@ -1,0 +1,36 @@
+.section {
+    width: 100%;
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    padding-block: 2rem;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.description {
+    max-width: 750px;
+}
+
+.paragraphSpacing {
+    height: 1.5rem;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+}
