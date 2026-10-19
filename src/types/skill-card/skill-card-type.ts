@@ -1,7 +1,7 @@
-import type { LucideIcon } from "lucide-react";
+import type { IconType } from "react-icons";
 
 export type ISkillCardProps = {
     title: string;
     description: string;
-    icon: LucideIcon;
+    icon: IconType;
 };

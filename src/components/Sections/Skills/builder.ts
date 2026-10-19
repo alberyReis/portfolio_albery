@@ -1,17 +1,15 @@
 
 import type { CSSProperties } from "react";
 import {
-    Code2,
-    Palette,
-    Braces,
-    FileCode2,
-    Database,
-    Atom,
-    Triangle,
-    Smartphone,
-    Layers,
-    BrainCircuit,
-} from "lucide-react";
+    SiHtml5,
+    SiCss,
+    SiJavascript,
+    SiTypescript,
+    SiReact,
+    SiNextdotjs,
+    SiAngular,
+} from "react-icons/si";
+import { BrainCircuit, Database } from "lucide-react";
 
 import type { ISkillCardProps } from "../../../types/skill-card/skill-card-type";
 import { Color } from "../../../utils/colors/colors";
@@ -22,55 +20,54 @@ export const useSkillsBuilder = () => {
             title: "HTML",
             description:
                 "Estruturação de páginas web com marcação semântica e acessível.",
-            icon: Code2,
+            icon: SiHtml5,
         },
         {
             title: "CSS",
             description:
                 "Estilização de interfaces responsivas e criação de layouts.",
-            icon: Palette,
+            icon: SiCss,
         },
         {
             title: "JavaScript",
             description:
                 "Implementação de funcionalidades e comportamentos dinâmicos.",
-            icon: Braces,
+            icon: SiJavascript,
         },
         {
             title: "TypeScript",
             description:
                 "Tipagem estática para desenvolver aplicações mais previsíveis.",
-            icon: FileCode2,
+            icon: SiTypescript,
         },
         {
-            title: "SQL",
+            title: "Banco de Dados",
             description:
-                "Consulta e manipulação de dados em bancos de dados relacionais.",
+                "Armazenamento, organização e consulta de dados em bancos de dados.",
             icon: Database,
         },
         {
             title: "React",
             description:
                 "Criação de interfaces reutilizáveis baseadas em componentes.",
-            icon: Atom,
+            icon: SiReact,
         },
         {
             title: "Next.js",
-            description:
-                "Desenvolvimento de aplicações React com roteamento, renderização no servidor e otimizações de desempenho.",
-            icon: Triangle,
+            description: "Desenvolvimento de aplicações web com React e Next.js.",
+            icon: SiNextdotjs,
         },
         {
             title: "React Native",
             description:
                 "Desenvolvimento de aplicações mobile para Android e iOS.",
-            icon: Smartphone,
+            icon: SiReact,
         },
         {
             title: "Angular",
             description:
                 "Desenvolvimento de aplicações web com componentes e recursos do framework.",
-            icon: Layers,
+            icon: SiAngular,
         },
         {
             title: "Inteligência Artificial",
