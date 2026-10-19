@@ -1,35 +1,35 @@
-# Portfólio — Albery Reis
+# Portfolio — Albery Reis
 
-## Sobre o projeto
+## About the Project
 
-Portfólio pessoal desenvolvido com React, TypeScript e CSS Modules para apresentar minha experiência profissional, formação em Engenharia de Software, habilidades técnicas e projetos.
+Personal portfolio built with React, TypeScript, and Vite to showcase my professional experience, Software Engineering education, technical skills, and projects.
 
-O projeto utiliza componentes reutilizáveis e um layout responsivo, com foco em organização, manutenibilidade e experiência do usuário.
+The project uses reusable components and a responsive layout, focusing on code organization, maintainability, and user experience.
 
-**Tecnologias:** React, TypeScript, Vite e CSS Modules.
+**Technologies:** React, TypeScript, Vite, and CSS Modules.
 
-**Acesse:** https://portfolioalbery.vercel.app/
+**Live Demo:** https://portfolioalbery.vercel.app/
 
-## Como executar o projeto
+## How to Run the Project
 
-**Pré-requisitos:** Node.js e npm instalados.
+**Prerequisites:** Node.js and npm installed.
 
-### 1. Clone o repositório
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/alberyReis/portfolio_albery.git
 
 
-2. Entre na pasta do projeto
+2. Navigate to the Project Directory
 cd portfolio_albery
 
 
-3. Instale as dependências
+3. Install Dependencies
 npm install
 
 
-4. Inicie o servidor de desenvolvimento
+4. Start the Development Server
 npm run dev
 
 
-Acesse o endereço exibido no terminal para visualizar o projeto no navegador.
+Open the URL displayed in the terminal to view the project in your browser.
