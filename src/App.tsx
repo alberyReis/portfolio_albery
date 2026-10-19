@@ -4,6 +4,7 @@ import { About } from "./components/Sections/About"
 import { Experience } from "./components/Sections/Experience"
 import { Home } from "./components/Sections/Home"
 import { Projects } from "./components/Sections/Projects"
+import { Skills } from "./components/Sections/Skills"
 
 export const App = () => {
   return (
@@ -17,6 +18,9 @@ export const App = () => {
         <Experience />
         <Divider />
         <Projects />
+        <Divider />
+        <Skills />
+        <Divider />
       </main>
     </div>
   )

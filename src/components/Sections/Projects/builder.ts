@@ -49,7 +49,6 @@ export const useProjectsBuilder = () => {
         } satisfies CSSProperties,
 
         sectionStyle: {
-            backgroundColor: Color.BACKGROUND,
             color: Color.TEXT_PRIMARY,
         } satisfies CSSProperties,
 
