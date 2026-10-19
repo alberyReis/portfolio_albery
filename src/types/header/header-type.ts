@@ -3,6 +3,7 @@ export type IHeaderHref =
     | "#about"
     | "#experience"
     | "#projects"
+    | "#skills"
     | "#contact";
 
 export type IHeaderLink = {

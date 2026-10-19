@@ -1,6 +1,10 @@
+
 import { useEffect, useRef, useState } from "react";
 import { Color } from "../../utils/colors/colors";
-import type { IHeaderHref, IHeaderLink } from "../../types/header/header-type";
+import type {
+    IHeaderHref,
+    IHeaderLink,
+} from "../../types/header/header-type";
 
 export const useHeaderBuilder = () => {
     const [visible, setVisible] = useState(true);
@@ -15,6 +19,7 @@ export const useHeaderBuilder = () => {
         { label: "Sobre", href: "#about" },
         { label: "Experiência", href: "#experience" },
         { label: "Projetos", href: "#projects" },
+        { label: "Skills", href: "#skills" },
         { label: "Contato", href: "#contact" },
     ];
 
