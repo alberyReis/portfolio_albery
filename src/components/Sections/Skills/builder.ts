@@ -5,11 +5,12 @@ import {
     Palette,
     Braces,
     FileCode2,
+    Database,
     Atom,
+    Triangle,
     Smartphone,
     Layers,
     BrainCircuit,
-    Triangle,
 } from "lucide-react";
 
 import type { ISkillCardProps } from "../../../types/skill-card/skill-card-type";
@@ -40,6 +41,12 @@ export const useSkillsBuilder = () => {
             description:
                 "Tipagem estática para desenvolver aplicações mais previsíveis.",
             icon: FileCode2,
+        },
+        {
+            title: "SQL",
+            description:
+                "Consulta e manipulação de dados em bancos de dados relacionais.",
+            icon: Database,
         },
         {
             title: "React",
