@@ -13,6 +13,7 @@ export const useHeaderBuilder = () => {
     const links: IHeaderLink[] = [
         { label: "Início", href: "#home" },
         { label: "Sobre", href: "#about" },
+        { label: "Experiência", href: "#experience" },
         { label: "Projetos", href: "#projects" },
         { label: "Contato", href: "#contact" },
     ];

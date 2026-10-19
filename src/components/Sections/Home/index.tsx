@@ -3,7 +3,6 @@ import { Button } from "../../Primitives/Button";
 import { Link } from "../../Primitives/Link";
 import { Title } from "../../Typography/Title";
 import { Text } from "../../Typography/Text";
-
 import brainImage from "../../../assets/brain-ai.png";
 import { useHomeBuilder } from "./builder";
 import styles from "./style.module.css";

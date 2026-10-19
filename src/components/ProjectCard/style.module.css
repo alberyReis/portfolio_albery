@@ -1,0 +1,95 @@
+.card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 2.5rem;
+    border: 1px solid;
+    border-radius: 1rem;
+    transition:
+        border-color 250ms ease,
+        transform 250ms ease,
+        box-shadow 250ms ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.18);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    min-width: 0;
+}
+
+.content > * {
+    max-width: 100%;
+}
+
+.visual {
+    min-width: 0;
+    overflow: hidden;
+    border-radius: 0.75rem;
+}
+
+.projectLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: gap 200ms ease;
+}
+
+.projectLink:hover {
+    gap: 0.75rem;
+}
+
+.projectLink:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+    border-radius: 2px;
+}
+
+@media (max-width: 1023px) {
+    .card {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .visual {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        gap: 1.5rem;
+        padding: 1.25rem;
+    }
+
+    .content {
+        gap: 1rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .card,
+    .projectLink {
+        transition: none;
+    }
+
+    .card:hover {
+        transform: none;
+    }
+}
