@@ -1,7 +1,7 @@
-import type { IBrainImageProps } from "../../../types/primitives/brain-image/brain-image-type";
+import type { IImageProps } from "../../../types/primitives/image/image-type";
 import styles from "./style.module.css";
 
-export const BrainImage = ({ src, alt }: IBrainImageProps) => {
+export const Image = ({ src, alt }: IImageProps) => {
     return (
         <div className={styles.container}>
             <img

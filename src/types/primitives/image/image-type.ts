@@ -1,4 +1,4 @@
-export type IBrainImageProps = {
+export type IImageProps = {
     src: string;
     alt: string;
 };

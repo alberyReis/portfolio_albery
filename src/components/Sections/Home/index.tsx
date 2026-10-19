@@ -3,10 +3,11 @@ import { Button } from "../../Primitives/Button";
 import { Link } from "../../Primitives/Link";
 import { Title } from "../../Typography/Title";
 import { Text } from "../../Typography/Text";
-import { BrainImage } from "../../Primitives/BrainImage";
+
 import brainImage from "../../../assets/brain-ai.png";
 import { useHomeBuilder } from "./builder";
 import styles from "./style.module.css";
+import { Image } from "../../Primitives/Image";
 
 export const Home = () => {
     const { labelStyle, indicatorStyle, titleHighlightStyle } =
@@ -71,7 +72,7 @@ export const Home = () => {
                     </div>
 
                     <div className={styles.imageContent}>
-                        <BrainImage
+                        <Image
                             src={brainImage}
                             alt="Cérebro que representa a integração entre inteligência humana, lógica e inteligência artificial"
                         />
