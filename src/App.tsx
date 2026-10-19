@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"
 import { Divider } from "./components/Primitives/Divider"
 import { About } from "./components/Sections/About"
@@ -23,8 +24,8 @@ export const App = () => {
         <Skills />
         <Divider />
         <Contact />
-        <Divider />
       </main>
+      <Footer />
     </div>
   )
 }

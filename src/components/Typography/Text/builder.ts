@@ -8,9 +8,9 @@ export const useTextBuilder = (
     weight: NonNullable<ITextProps["weight"]>
 ) => {
     const sizes = {
-        small: "0.875rem",
-        medium: "1rem",
-        large: "1.125rem",
+        small: "clamp(0.75rem, 2.5vw, 0.875rem)",
+        medium: "clamp(0.875rem, 3vw, 1rem)",
+        large: "clamp(1rem, 3.5vw, 1.125rem)",
     };
 
     const colors = {

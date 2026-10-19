@@ -1,9 +1,10 @@
+
 .section {
     width: 100%;
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    padding-block: 10rem 5rem;
+    padding: 9rem 0 5rem;
 }
 
 .content {
@@ -54,14 +55,13 @@
     min-width: 0;
 }
 
-
 @media (max-width: 900px) {
     .section {
-        padding-block: 6rem 4rem;
+        padding: 9rem 0 3rem;
     }
 
     .content {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
         gap: 3rem;
     }
 
@@ -74,7 +74,7 @@
 
 @media (max-width: 600px) {
     .section {
-        padding-block: 4rem 3rem;
+        padding: 9rem 0 3rem;
     }
 
     .textContent {
@@ -82,13 +82,8 @@
     }
 }
 
-
-@media (max-width: 600px) {
+@media (prefers-reduced-motion: reduce) {
     .section {
-        padding-block: 3.5rem;
-    }
-
-    .textContent {
-        gap: 1.5rem;
+        scroll-behavior: auto;
     }
 }

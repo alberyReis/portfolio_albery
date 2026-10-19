@@ -7,9 +7,9 @@ export const useTitleBuilder = (
     color: NonNullable<ITitleProps["color"]>
 ) => {
     const sizes = {
-        large: "2.5rem",
-        medium: "2rem",
-        small: "1.5rem",
+        large: "clamp(1.5rem, 5vw, 2.5rem)",
+        medium: "clamp(1.25rem, 4vw, 2rem)",
+        small: "clamp(1rem, 3vw, 1.5rem)",
     };
 
     const colors = {
